@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 62.5%;
+}
+
+.main {
+  display: flex;
+  gap: 10rem;
+}
+
+.left {
+  display: flex;
+}
+.root {
+  margin-top: 5rem;
+}
+.frame {
+  background-image: url("frame.png");
+  height: 70rem;
+  width: 50rem;
+  background-repeat: no-repeat;
+  transform: translate(70%);
+  z-index: -1;
+}
+.coverpic {
+  transform: translate(2.8%, 3.9%);
+}
+.title {
+  background-image: url("./instagram-image.png");
+  background-position: 12rem 0;
+  width: 50rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+}
+.profile-pic {
+  background-image: url(./profilepic.jpg);
+  height: 10rem;
+  width: 10rem;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-size: 10rem;
+  position: center;
+}
+.text-field {
+  width: 30rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: #fafafa;
+}
+.pwd {
+  margin-top: 0.6rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 0.3px solid black;
+  max-width: 40rem;
+  max-height: 40rem;
+  margin-top: 10rem;
+}
+.login {
+  width: 30rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: #fafafa;
+}
