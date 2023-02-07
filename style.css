@@ -8,11 +8,12 @@ html {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif;
   font-size: 62.5%;
+  background-color: #fafafa;
 }
 
 .main {
   display: flex;
-  gap: 10rem;
+  gap: 6rem;
 }
 
 .left {
@@ -32,13 +33,16 @@ html {
 .coverpic {
   transform: translate(2.8%, 3.9%);
 }
-.title {
+div span {
+  display: inline-block;
   background-image: url("./instagram-image.png");
-  background-position: 12rem 0;
-  width: 50rem;
-  height: 10rem;
+  background-size: 176px 186px;
+  width: 17.7rem;
+  height: 5rem;
   background-repeat: no-repeat;
+  margin: 5rem 0 4rem 0;
 }
+
 .profile-pic {
   background-image: url(./profilepic.jpg);
   height: 10rem;
@@ -50,7 +54,7 @@ html {
 }
 .text-field {
   width: 30rem;
-  border: 1px solid black;
+  border: 0.1px solid rgb(229, 210, 210);
   padding: 1rem;
   border-radius: 0.3rem;
   background-color: #fafafa;
@@ -58,21 +62,30 @@ html {
 .pwd {
   margin-top: 0.6rem;
 }
-.right {
+
+.login {
+  margin-top: 2rem;
+  width: 30rem;
+  /* border: 1px solid black; */
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 1rem;
+  background-color: #4db5f9;
+}
+.forgot-password {
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.firstcontainer {
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   align-items: center;
-  border: 0.3px solid black;
-  max-width: 40rem;
-  max-height: 40rem;
+  align-content: center;
+  border: 0.1px solid rgb(229, 210, 210);
+  background-color: white;
+  padding: 2rem;
   margin-top: 10rem;
-}
-.login {
-  width: 30rem;
-  border: 1px solid black;
-  padding: 1rem;
-  border-radius: 0.3rem;
-  background-color: #fafafa;
 }
