@@ -23,7 +23,7 @@ html {
   margin-top: 5rem;
 }
 .frame {
-  background-image: url("frame.png");
+  background-image: url("./images/frame.png");
   height: 70rem;
   width: 50rem;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ html {
 }
 div span {
   display: inline-block;
-  background-image: url("./instagram-image.png");
+  background-image: url("./images/instagram-image.png");
   background-size: 176px 186px;
   width: 17.7rem;
   height: 5rem;
@@ -43,15 +43,18 @@ div span {
   margin: 5rem 0 4rem 0;
 }
 
-.profile-pic {
-  background-image: url(./profilepic.jpg);
+/* Currently not in use */
+
+/* .profile-pic {
+  background-image: url("./images/profilepic.jpg");
   height: 10rem;
   width: 10rem;
   background-repeat: no-repeat;
   border-radius: 50%;
   background-size: 10rem;
   position: center;
-}
+} */
+
 .text-field {
   width: 30rem;
   border: 0.1px solid rgb(229, 210, 210);
@@ -87,5 +90,59 @@ div span {
   border: 0.1px solid rgb(229, 210, 210);
   background-color: white;
   padding: 2rem;
-  margin-top: 10rem;
+  margin-top: 6rem;
+}
+.seccontainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.secondcontainer {
+  border: 0.1px solid rgb(229, 210, 210);
+  background-color: white;
+  padding: 2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.signup {
+  margin-left: 0.5rem;
+  color: #00a2f8;
+}
+.app {
+  height: 4rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.microsoft {
+  margin-left: 0.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.footer-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  text-decoration: underline;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  color: rgb(126, 122, 122);
+  font-weight: 500;
+}
+li:hover {
+  cursor: pointer;
 }
